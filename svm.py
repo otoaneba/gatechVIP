@@ -148,7 +148,7 @@ def pred_svm(x_train, x_test, y_train, y_test, kernel='poly', degree=3, gamma='a
 
 
 def testing(label_set, dist):
-    loc = '/Users/Raymond/download/zach_cont_gest_1/zach_cont_gest_1/*.png'
+    loc = '/Users/Naoto/download/zach_cont_gest_1/zach_cont_gest_1/*.png'
     addrs = glob.glob(loc)
     regex = re.compile(r'\d+')
     labels, pngs = [], []
